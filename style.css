@@ -1,0 +1,49 @@
+html, body{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ========== Header ========== */
+header{
+    box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.2);
+}
+.header-content{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800 ;
+    color: #a4c639;
+    font-style: italic;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+.navbar li a{
+    margin: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+.navbar li a:hover{
+    color: #a4c639;
+    border-bottom: 2px solid #a4c639;
+}
+.navbar li:first-child a{
+    color: #a4c639;
+    border-bottom: 2px solid #a4c639;
+}
+/* ========== End of Header ========== */
