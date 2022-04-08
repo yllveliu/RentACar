@@ -95,8 +95,114 @@ header{
     margin: 20px 0;
 }
 /* ========== End of Section2 ========== */
+/* ========== Section3 ========== */
+.section3 .title-section{
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0;
+}
+.section3-content{
+    display: flex;
+    justify-content: space-between;
+}
+.three-features{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #a4c639;
+}
+.three-features .features-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three-features .features-content i{
+   font-size: 50px;
+}
+.three-features .features-content h2{
+   font-size: 20px;
+   margin-top: 5px;
+   text-align: center;
+}
+.three-features .features-content p{
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+.right{
+    width: 60%;
+    padding: 40px;
+}
+.right img{
+    border-radius: 10px;
+}
+.right .right-content h2{
+    font-size: 22px;
+    color: #a4c639;
+    font-style: italic;
+    margin: 20px 0;
+}
+.right .right-content p{
+    letter-spacing: 1px;
+    text-align: justify;
+}
+/* ========== End of Section3 ========== */
+
+/* ========== Section4 ========== */
+.section4{
+    background-image: url("img/about.jpg");
+    background-size: cover;
+}
+.section4-content{
+    display: flex;
+}
+/* ========== End of Section4 ========== */
+
+
 .p-y-10px{
     padding: 10px 0;
 }
-
-
+.p-y-80px{
+    padding: 80px 0;
+}
+.section4-content img{
+    width: 95%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.section4-about,
+.section4-clients{
+    width: 30%;
+    padding-right: 10px;
+}
+.section4-content h2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section4-content hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+    to right,
+    #a4c639,
+    rgba(0, 0, 0, 075),
+    #a4c639);
+}
+.section4-clients p{
+    margin-top: 3px!important;
+}
+.section4-clients h4{
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: white;
+}
+.section4-content p{
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
